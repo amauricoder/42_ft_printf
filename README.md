@@ -14,6 +14,7 @@
 Ft_printf is a project from the common core curriculum of 42 school. The goal of this project is to code a clone of the libc library printf().
 The printf() function in C is a widely used function for formatted output. It stands for "print formatted" and is primarily used to display data on the screen or write it to a file. The function takes a format string as its first argument, which can contain placeholders called format specifiers. These placeholders are replaced by the values of additional arguments provided to the function.
 - Returns the number of characters printed, excluding the null byte used to terminate output to strings.
+>The code was written according to the 42 norm (norminette) guidelines.
 
 ## Usage
 1. Clone the repository
