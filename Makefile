@@ -7,9 +7,10 @@ RM = rm -rf
 NAME = libftprintf.a
 
 #sources and objects
-SRCS =	ft_printf.c	ft_putchar.c ft_putnbr.c ft_putstr.c \
+SRCS_DIR = ./sources
+SRCS =	$(addprefix $(SRCS_DIR)/, ft_printf.c	ft_putchar.c ft_putnbr.c ft_putstr.c \
 		ft_print_format.c ft_putpointer.c ft_putunbr.c \
-		ft_putnbr_hex.c ft_trialhex.c
+		ft_putnbr_hex.c ft_trialhex.c)
 OBJS = $(SRCS:.c=.o)
 
 ### MAKEFILE

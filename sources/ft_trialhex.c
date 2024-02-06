@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_trialhex.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aconceic <aconceic@student.42.fr>          +#+  +:+       +#+        */
+/*   By: aconceic <aconceic@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/29 14:52:44 by aconceic          #+#    #+#             */
-/*   Updated: 2023/10/31 19:37:47 by aconceic         ###   ########.fr       */
+/*   Updated: 2024/02/06 13:44:48 by aconceic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../includes/ft_printf.h"
 
 static char	*ft_strtoupper(char *str)
 {
