@@ -33,7 +33,7 @@ This will generate a libftprintf.a file in the root folder, this is the library 
 ```
 4. Syntax Example
 ``` C
-  ft_printf("This is a syntax usage example.\n Followed by a number %nbr.", nbr);
+  ft_printf("This is a syntax usage example.\n Followed by a number %i.", nbr);
 ```
 ## Obligatory convertions
 Those are the obligatory conversions requirements of the project - for more detail, check the [subject](subject/2-printf.pdf):
